@@ -65,12 +65,12 @@ if (tutionFees === paymentAmount) {
             },
         ]);
         if (ans.select === "View Status") {
-            console.log(chalk.blue("\n*********STATUS***********\n"));
-            console.log(chalk.blue(`Student Name: ${answer.students}`));
-            console.log(chalk.blue(`Student Id : ${randomNumber}`));
-            console.log(chalk.blue(`course: ${answer.courses}`));
-            console.log(chalk.blue(`Tution Fees Paid:${paymentAmount}`));
-            console.log(chalk.blue(`Balance: ${myBalance += paymentAmount}`));
+            console.log(chalk.cyanBright("\n*********STATUS***********\n"));
+            console.log(chalk.cyanBright(`Student Name: ${answer.students}`));
+            console.log(chalk.cyanBright(`Student Id : ${randomNumber}`));
+            console.log(chalk.cyanBright(`course: ${answer.courses}`));
+            console.log(chalk.cyanBright(`Tution Fees Paid:${paymentAmount}`));
+            console.log(chalk.cyanBright(`Balance: ${myBalance += paymentAmount}`));
         }
         else {
             console.log(chalk.inverse("\n **********Exiting Student Management System**********\n"));

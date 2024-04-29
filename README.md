@@ -1,1 +1,1 @@
-"# itsmy-student-management-system" 
+"# rts-student-management-system" 
